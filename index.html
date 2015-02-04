@@ -3,7 +3,13 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Document</title>
-	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;"/>	
+	<link rel="stylesheet" type="text/css" href="css/style.css" media="screen, handheld" />
+	<link rel="stylesheet" type="text/css" href="css/enhanced.css" media="screen and (min-width: 40.5em)" />
+	<!--[if (lt IE 9)&(!IEMobile)]>
+	<link rel="stylesheet" type="text/css" href="enhanced.css" />
+	<![endif]-->
+	<script type="text/javascript" src="js/modernizr.custom.71609.js"></script>
 </head>
 <body>
 
@@ -13,21 +19,26 @@
 			<h1>Tabluu</h1>
 			<img src="images/tabluu-logo.png">
 		</div>
-		<nav class="main">
-			<a href="">Blog</a>
-			<a href="">Pricing</a>
-			<a href="">Contact</a>
+		<nav  id="nav-anchors" class="nav-anchors">
+		  <a href="#nav" id="menu-anchor">Menu</a>
 		</nav>
 		<nav class="login">
 			<a href="">Log In</a>
 			<button>Start my free plan</button>
 		</nav>
+		<nav class="nav">
+			<a href="">Blog</a>
+			<a href="">Pricing</a>
+			<a href="">Contact</a>
+		</nav>		
 	</div>	
 </div>
 
 <div id="footer">
 	<div class="container footer"></div>
 </div>
-	
+<script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="js/init.js"></script>	
 </body>
 </html>

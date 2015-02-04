@@ -1,0 +1,6 @@
+body{padding:0;margin:0;}
+#header{background:#00adee;}
+#header a{color:#FFF;}
+#header .logo{height:80px;}
+#header .logo h1{display:none;}
+#header .logo img{width:117px;height:45px;padding:16px 23px;}
