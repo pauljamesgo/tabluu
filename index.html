@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Document</title>
-	<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;"/>	
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">	
 	<link rel="stylesheet" type="text/css" href="css/style.css" media="screen, handheld" />
 	<link rel="stylesheet" type="text/css" href="css/enhanced.css" media="screen and (min-width: 40.5em)" />
 	<!--[if (lt IE 9)&(!IEMobile)]>
@@ -16,29 +16,32 @@
 <div id="header">
 	<div class="container header">
 		<div class="logo">
-			<h1>Tabluu</h1>
-			<img src="images/tabluu-logo.png">
+			<a href="//www.tabluu.com/">
+				<h1>Tabluu</h1>
+				<img src="images/tabluu-logo.png">
+			</a>
 		</div>
-		<nav  id="nav-anchors" class="nav-anchors">
-		  <a href="#nav" id="menu-anchor">Menu</a>
+		<nav id="navigation">
+			<a href="#" id="push">
+			    <span>Menu</span>
+			    <img src="images/icon-hamburger@2x.png">
+		    </a>
+		    <ul id="links">  
+				<li><a class="btn" href="#">Log In</a></li>  
+				<li><a href="#">Blog</a></li>  
+				<li><a href="#">Pricing</a></li>  
+				<li><a href="#">Contact</a></li>
+		    </ul>      
 		</nav>
-		<nav class="login">
-			<a href="">Log In</a>
-			<button>Start my free plan</button>
-		</nav>
-		<nav class="nav">
-			<a href="">Blog</a>
-			<a href="">Pricing</a>
-			<a href="">Contact</a>
-		</nav>		
 	</div>	
 </div>
 
 <div id="footer">
 	<div class="container footer"></div>
 </div>
-<script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
-<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-<script type="text/javascript" src="js/init.js"></script>	
+
+<script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+<script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="js/init.js"></script>
 </body>
 </html>
