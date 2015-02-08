@@ -1,10 +1,10 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
 *{font-family:"Open Sans", sans-serif;}
 body{padding:0;margin:0;}
-#header{background:#00adee;height:5em;width:100%}
+#header{background:#00adee;height:5em;padding:0 1em;}
 #header .logo{height:5em;border-bottom:#d9d9d9 solid 0.0625em;}
 #header .logo h1{display:none;}
-#header .logo img{width:117px;height:2.8125em;padding:1em;}
+#header .logo img{width:117px;height:2.8125em;padding:1em 0;}
 #header #navigation{width:100%;}
 #header #navigation a{text-decoration:none;text-align:center;}
 #header #navigation #links{display:none;height:auto;background:#eff0f1;padding:0 0 0.3125em;margin:0;list-style:none;}
@@ -35,3 +35,12 @@ body{padding:0;margin:0;}
 #header #navigation #push{position:absolute;top:2em;right:1em;}
 #header #navigation #push span{display:none;}
 #header #navigation #push img{width:30px;height:1em;}
+
+#footer{background:#1F2024;padding:2.3125em 1em;font-size:0.6875em;color:#ababab;}
+#footer p{margin-bottom:0.625em;}
+#footer a{color:#ffffff;text-decoration:none;}
+#footer a:hover{text-decoration:underline;}
+#footer nav.quicklinks ul{list-style:none;padding-left:0;margin-top:0;}
+#footer nav.quicklinks li{display:inline-block;}
+#footer nav.quicklinks li::after{content: " | ";}
+#footer nav.quicklinks li:last-child::after{content: "  ";}

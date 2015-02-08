@@ -1,10 +1,12 @@
 @media screen and (min-width: 40.5em) {
-  .container{width:1100px;margin:0 auto;position:relative;}
-  #header #navigation{position:absolute;top:1.180555555555556em;}
+  .container{max-width:1100px;min-width:40.5em;margin:0 auto;position:relative;}
+  #header .logo img{padding-left:0;}
+  #header #navigation{position:absolute;top:.6em;}
   #header #navigation #push{display:none;}
-  #header #navigation #links{display:block;background:transparent;font-size:0.9em;float:right;}
-  #header #navigation #links li{border:none;display:inline-block;line-height:3.680555555555556em;padding:0 0.3472222222222222em}
-  #header #navigation #links li:first-child{float:right;padding:0;}
-  #header #navigation #links li a{color:#ffffff;text-shadow: 0px 1px 1px #029ed9;}
+  #header #navigation #links{display:block;background:transparent;font-size:1em;float:right;}
+  #header #navigation #links li{border:none;display:inline-block;line-height:3.680555555555556em;padding:0 0.3em}
+  #header #navigation #links li:first-child{float:right;padding:0.1388888888888889em 0 0;}
+  #header #navigation #links li a{color:#ffffff;text-shadow: 0px 1px 1px #029ed9;padding:0 0.6944444444444444em;transition: background-color 0.2s ease;}
+  #header #navigation #links li a:hover,#header #navigation #links li a:focus{background:#009ad2;}
   #header #navigation #links li a.btn{font-size:1em;line-height:2.08em;width:4.86em;}
 }
